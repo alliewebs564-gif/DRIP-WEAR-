@@ -1,0 +1,115 @@
+body {
+    font-size: 15pt;
+    background-color: black ;
+    color:white;
+    
+}
+
+h3{
+    color: white;
+}
+
+.container
+    {
+        position: relative;
+     width: 100%;
+    }
+    
+    .container img{
+display: block; 
+filter: brightness(0.5);
+     height: 300px;
+     border-radius: 10px;
+    }
+    
+    
+
+ 
+ .overlay{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     
+     font-size: 11px;
+     
+    }
+    
+    .overlay h2{
+font-size: 28px;
+  margin-bottom: 10px;
+    }
+    
+    .overlay p{
+        font-size: 15px;
+    }
+    
+    .btn{
+background: #00c2ff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+    }
+    
+    
+    .nav {
+        
+display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: black;
+  text-decoration-line: none;
+    }
+    
+.nav a{margin: 0 10px;
+  color: white;
+  text-decoration: none;}
+  
+.products {
+  text-align: center;
+  background: #111; /* dark theme */
+  color: white;
+  padding: 40px 20px;
+}
+
+.slideshow {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.slide img:hover {
+  transform: scale(1.05);
+
+}
+
+.about {
+  text-align: center;
+  background-color:#0a0f1c;
+border-radius: 5px;
+}
+
+.about p{
+  text-wrap: center;
+  
+}
